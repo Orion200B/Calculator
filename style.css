@@ -1,0 +1,127 @@
+@font-face {
+    font-family: basicFont;
+    src: url(fonts/BebasNeue-Regular.otf);
+}
+
+*{
+    font-family: basicFont;
+    color: #EEEEEE;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #EEEEEE;
+}
+
+#calculator{
+    background-color: #222831;
+    width: 450px;
+    height: 608px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin-top: auto;
+    box-shadow: 5px 5px 5px rgb(0,0,0, 0.5);
+}
+
+#display{
+    background-color: #31363F;
+    width: 435px;
+    height: 100px;
+    border-radius: 15px;
+    margin-top: 8px;
+    padding-top: 8px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    text-align: center;
+    font-size: 80px;
+    overflow: hidden;
+    box-shadow: 5px 5px 5px rgb(0,0,0, 0.5);
+}
+
+.buttons{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.row{
+    display: flex;
+}
+
+.btn{
+    width: 105px;
+    height: 90px;
+    margin: 2px;
+    border-radius: 10px;
+    border: none;
+    background-color: #31363F;
+    font-size: 50px;
+    transition: .2s;
+    box-shadow: 5px 5px 5px rgb(0,0,0, 0.5);
+}
+
+.btn:hover{
+    background-color: #14171C;
+    cursor: pointer;
+}
+
+.notNum{
+    background-color: #191D23;
+}
+
+.equal{
+    width: 214px;
+    background-color: #76ABAE;
+    height: 90px;
+    margin: 2px;
+    border-radius: 10px;
+    border: none;
+    font-size: 50px;
+    transition: .2s;
+    box-shadow: 5px 5px 5px rgb(0,0,0, 0.5);
+}
+
+.equal:hover{
+    background-color: #4b7c7f;
+    cursor: pointer;
+}
+
+footer{
+    width: 100%;
+    height: 70px;
+    background-color: #222831;
+    margin-top: auto;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    gap: 5px;
+}
+
+img{
+    width: 30px;
+    height: 30px;
+}
+
+a{
+    text-decoration: none;
+    margin-bottom: 4px;
+    transition: .2s;
+}
+
+a:hover{
+    color: #515968;
+}

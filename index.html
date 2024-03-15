@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div id="calculator">
+        <div id="display">0</div>
+        <div class="buttons">
+            <div class="row">
+                <button class="clear btn notNum">C</button>
+                <button class="add btn notNum">+</button>
+                <button class="subtract btn notNum">-</button>
+                <button class="backspace btn notNum">⌫</button>
+            </div>
+            <div class="row">
+                <button class="number7 btn">7</button>
+                <button class="number8 btn">8</button>
+                <button class="number9 btn">9</button>
+                <button class="multiply btn notNum">X</button>  
+            </div>
+            <div class="row">
+                <button class="number4 btn">4</button>
+                <button class="number5 btn">5</button>
+                <button class="number6 btn">6</button>
+                <button class="divide btn notNum">/</button>
+            </div>
+            <div class="row">
+                <button class="number3 btn">3</button>
+                <button class="number2 btn">2</button>
+                <button class="number1 btn">1</button>
+                <button class="plusOrMinus btn notNum" onclick="signToggle()">+/-</button>
+            </div>
+            <div class="row">
+                <button class="dot btn notNum">.</button>
+                <button class="number0 btn">0</button>
+                <button class="equal">=</button>
+            </div>
+        </div>
+    </div>
+    <footer>Made By <a href="https://github.com/Orion200B" target="_blank">Orion200B <img src="Images/github-logo.png"></a></footer>
+</body>
+</html>
